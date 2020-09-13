@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="bgcolor">
+        <text class="number" bindtap="goLogin">{{number}}</text>
+    </view>
+    <!-- <view wx:for="{{item in newobj}}">
+        <text>11</text><text>22</text>
+    </view> -->
+    
+</view>

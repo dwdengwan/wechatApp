@@ -1,0 +1,124 @@
+/* pages/detail/detail.wxss */
+.detail{
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+.detail-header{
+  width: 96%;
+  height: 100rpx;
+  background: #0f0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.detail-header .detail-header-right{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+}
+.detail-header .detail-header-right .detail-header-back{
+  width: 30rpx;
+  height: 30rpx;
+  border-left: 5rpx solid #fff;
+  border-bottom: 5rpx solid #fff;
+  transform: rotate(45deg);
+  display: inline-block;
+}
+.detail-header .detail-header-right .detail-header-name{
+  margin-left: 2%; 
+  width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.detail-header .detail-header-left{
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.detail-header .detail-header-left .detail-header-cir{
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 50%;
+  background: #000;
+  display: inline-block;
+}
+
+.detail-content{
+  width: 98%;
+  margin-top: 100rpx;
+  /* height: calc(100% -250rpx); */
+  height: 100%;
+  background: #ff0;
+  padding: 1%;
+}
+.detail-content .detail-content-time{
+  text-align: center;
+  font-size: 30rpx;
+  color:#aaa;
+}
+.detail-content .detail-profile{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius:50%;
+  background: red; 
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.detail-content .detail-text{
+  padding: 1%;
+  background: green;
+  border-radius: 10rpx;
+  color:#fff;
+}
+.detail-content .detail-content-top{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* padding: 20rpx; */
+}
+
+.detail-content .detail-content-bottom{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.detail .myself{
+  background: green;
+}
+.detail .yourself{
+  background: pink;
+  color:#000;
+}
+
+.detail-footer{
+  width: 90%;
+  height: 150rpx;
+  background: #00f;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 5%;
+}
+.detail-footer form{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.detail-footer input{
+  /* width: 60%; */
+  background: #fff;
+  height: 70%;
+  color:red;
+  padding: 0 2%;
+}
+.detail-footer button{
+  width: 20%;
+}
