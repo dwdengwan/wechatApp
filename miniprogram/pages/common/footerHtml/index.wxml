@@ -1,0 +1,17 @@
+<!--miniprogram/pages/common/footerHtml/index.wxml-->
+<view class="index-footer">
+  <view 
+      class="index-footer-child" 
+      :class="item.name=='微信'?'active':''" 
+      bindtap="handleTouchBack(0)" 
+      wx:for="{{footerData}}" 
+      wx:key="item">
+    <view class="index-footer-top">
+      <view class="index-footer-img"></view>
+    </view>
+    <view class="index-footer-bottom">
+      <view class="index-footer-name">{{item.name}}</view>
+    </view>
+    <view class="index-footer-flag" wx:if="{{item.name == '微信'}}">26</view>
+  </view>
+</view>

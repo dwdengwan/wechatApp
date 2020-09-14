@@ -1,0 +1,19 @@
+/* miniprogram/pages/common/headerHtml/index.wxss */
+.index-header{
+  width: 96%;
+  height: 6%;
+  padding: 0 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+}
+.index-header .index-header-right {
+  width: 20%;
+  text-align: right;
+}
+.index-header .index-header-right .index-header-search,
+.index-header .index-header-right .index-header-more{
+  margin-left: 5%;
+  margin-right: 5%;
+}

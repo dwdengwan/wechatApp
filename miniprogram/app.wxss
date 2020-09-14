@@ -38,3 +38,7 @@ view,text,input,button{
   background: #eee;
   padding: 0 2%;
 }
+/*隐藏滚动条*/
+.content::-webkit-scrollbar {
+  display: none;
+}

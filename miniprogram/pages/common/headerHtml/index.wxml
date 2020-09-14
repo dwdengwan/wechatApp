@@ -1,0 +1,9 @@
+<view class="index-header">
+  <view class="index-header-left">
+    <text>微信（26）</text>
+  </view>
+  <view class="index-header-right">
+    <text class="index-header-search">搜索</text>
+    <text class="index-header-more">更多</text>
+  </view>
+</view>

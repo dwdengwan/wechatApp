@@ -1,0 +1,52 @@
+/* miniprogram/pages/common/footerHtml/index.wxss */
+.index-footer{
+  background: #eee;
+  padding: 0 2%;
+  width: 96%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.index-footer .index-footer-child{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.index-footer .index-footer-child .index-footer-top{
+  width: 70rpx;
+  height: 70rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.index-footer .index-footer-child.active .index-footer-top .index-footer-img{
+  background: #276e38;
+}
+.index-footer .index-footer-child .index-footer-top .index-footer-img{
+  width: 65rpx;
+  height: 65rpx;
+  border-radius: 50%;
+  background: #666;
+}
+.index-footer .index-footer-child.active .index-footer-bottom .index-footer-name{
+  color: #276e38;
+}
+.index-footer .index-footer-child .index-footer-bottom .index-footer-name{
+  color: #666;
+}
+.index-footer-child .index-footer-flag{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25rpx;
+  height: 25rpx;
+  font-size: 18rpx;
+  text-align: center;
+  line-height: 25rpx;
+  background: #ee533b;
+  border-radius: 50%;
+  color:#fff;
+}

@@ -1,14 +1,25 @@
 <!--miniprogram/pages/wechat/index/index.wxml-->
 <view class="wechat all">
-  <view class="wechat-header header">
-    <view class="wechat-header-left">
-      <text>微信（67）</text>
-    </view>
-    <view class="wechat-header-right">
-      <text class="wechat-header-search">搜索</text>
-      <text class="wechat-header-more">更多</text>
+  <header-html></header-html>
+  <view class="wechat-content content">
+    <view class="wechat-content-child" wx:for="{{wechatData}}" wx:key="item">
+      <view class="wechat-child-left">
+        <view class="wechat-child-img">
+          <view class="wechat-child-flag">{{item.num}}</view>
+        </view>
+      </view>
+      <view class="wechat-child-right">
+        <view class="wechat-child-content">
+          <view class="wechat-content-top">
+            <view class="wechat-content-name">{{item.name}}</view>
+            <view class="wechat-content-time">{{item.time}}</view>
+          </view>
+          <view class="wechat-content-bottom">
+            {{item.content}}          
+          </view>
+        </view>
+      </view>
     </view>
   </view>
-  <view class="wechat-content content"></view>
-  <view class="wechat-footer footer"></view>
+  <footer-html></footer-html>
 </view>
