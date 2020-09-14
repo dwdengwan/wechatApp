@@ -1,0 +1,7 @@
+/* miniprogram/pages/wechat/index/index.wxss */
+.wechat{}
+.wechat .wechat-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

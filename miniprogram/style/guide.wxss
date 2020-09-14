@@ -24,7 +24,7 @@ page {
 .list-item {
   width: 100%;
   padding: 0;
-  line-height: 104rpx;
+  line-height: unit(104,rpx);
   font-size: 34rpx;
   color: #007aff;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
