@@ -1,9 +1,11 @@
 <!--miniprogram/pages/common/footerHtml/index.wxml-->
 <view class="index-footer">
   <view 
-      class="index-footer-child" 
-      :class="item.name=='微信'?'active':''" 
-      bindtap="handleTouchBack(0)" 
+      class="index-footer-child {{activeIndex==index?'active':''}}" 
+      bindtap="handleTouchBack" 
+      wx:for-index="index"
+      wx:for-item="item"
+      data-index="{{index}}"
       wx:for="{{footerData}}" 
       wx:key="item">
     <view class="index-footer-top">
@@ -15,3 +17,30 @@
     <view class="index-footer-flag" wx:if="{{item.name == '微信'}}">26</view>
   </view>
 </view>
+
+
+  <!-- "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [
+    {
+      "pagePath": "pages/wechat/index/index",
+      "text": "微信"
+    }, 
+    {
+      "pagePath": "pages/addrbook/index/index",
+      "text": "通讯录"
+    }, 
+    {
+      "pagePath": "pages/found/index/index",
+      "text": "发现"
+    }, 
+    {
+    "pagePath": "pages/myself/index/index",
+    "text": "我"
+    }
+  ]
+},
+  "usingComponents": {}, -->

@@ -1,4 +1,7 @@
 {
   "component": true,
-  "usingComponents": {}
+  "usingComponents": {
+    "header-html": "../../common/headerHtml",
+    "footer-html": "../../common/footerHtml"
+  }
 }

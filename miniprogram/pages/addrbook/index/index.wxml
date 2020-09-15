@@ -1,2 +1,6 @@
 <!--pages/addrbook/index/index.wxml-->
-<text>pages/addrbook/index/index.wxml</text>
+<view class="addrbook all">
+  <header-html></header-html>
+  <view class="addrbook-content content"></view>
+  <footer-html></footer-html>
+</view>

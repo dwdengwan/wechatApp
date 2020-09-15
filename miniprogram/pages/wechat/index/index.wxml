@@ -1,6 +1,6 @@
 <!--miniprogram/pages/wechat/index/index.wxml-->
 <view class="wechat all">
-  <header-html></header-html>
+  <header-html text="{{toHeaderHtmlObj}}"></header-html>
   <view class="wechat-content content">
     <view class="wechat-content-child" wx:for="{{wechatData}}" wx:key="item">
       <view class="wechat-child-left">

@@ -1,2 +1,6 @@
 <!--pages/myself/index/index.wxml-->
-<text>pages/myself/index/index.wxml</text>
+<view class="myself all">
+  <header-html></header-html>
+  <view class="myself-content content"></view>
+  <footer-html></footer-html>
+</view>

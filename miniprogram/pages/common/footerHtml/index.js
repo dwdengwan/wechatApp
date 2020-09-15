@@ -1,4 +1,5 @@
 // miniprogram/pages/common/footerHtml/index.js
+const app = getApp()
 Page({
 
   /**
@@ -22,7 +23,8 @@ Page({
         name:"我",
         id:"10004"
       },
-    ]
+    ],
+    activeIndex:app.globalData.currentPage,
   },
 
   /**
@@ -83,7 +85,35 @@ Page({
   /**
    * 
    * @param {i} */ 
-  handleTouchBack: function(i){
-    console.log(i)
+  handleTouchBack: function(e){
+    // 传递的参数
+    let query = e.currentTarget.dataset['index'];
+    let num = parseInt(query);
+    let currentPage = parseInt(app.globalData.currentPage);
+    let url = '';
+    if(num == currentPage){return}//如果在当前页 不进行页面跳转
+    switch(num){
+      case 0:
+        console.log('0')
+        url = '/pages/wechat/index/index';
+        break
+      case 1:
+        console.log('1')
+        url = '/pages/addrbook/index/index';
+        break
+      case 2:
+        console.log('2')
+        url = '/pages/found/index/index';
+        break
+      case 3:
+        console.log('3')
+        url = '/pages/myself/index/index';
+        break  
+    }
+    wx.navigateTo({url})
+    this.setData({
+      activeIndex:num,
+    })
+    console.log(this.data.activeIndex,app.globalData.currentPage,num)
   }
 })

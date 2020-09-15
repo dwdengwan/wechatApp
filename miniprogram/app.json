@@ -1,6 +1,9 @@
 {
   "pages": [
     "pages/wechat/index/index",
+    "pages/addrbook/index/index",
+    "pages/found/index/index",
+    "pages/myself/index/index",
     "pages/common/headerHtml/index",
     "pages/common/footerHtml/index"
   ],

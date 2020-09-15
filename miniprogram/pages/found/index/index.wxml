@@ -1,2 +1,6 @@
 <!--pages/found/index/index.wxml-->
-<text>pages/found/index/index.wxml</text>
+<view class="found all">
+  <header-html></header-html>
+  <view class="found-content content"></view>
+  <footer-html></footer-html>
+</view>

@@ -1,6 +1,7 @@
 <view class="index-header">
   <view class="index-header-left">
-    <text>微信（26）</text>
+    <!-- 微信（26） -->
+    <text>{{pageText}}</text>
   </view>
   <view class="index-header-right">
     <text class="index-header-search">搜索</text>

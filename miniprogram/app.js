@@ -10,6 +10,8 @@ App({
       })
     }
 
-    this.globalData = {}
+    this.globalData = {
+      currentPage:0,//0 微信首页 1 通讯录首页 2 发现首页 3 我首页
+    }
   }
 })

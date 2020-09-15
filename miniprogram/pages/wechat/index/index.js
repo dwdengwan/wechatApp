@@ -1,4 +1,5 @@
 // miniprogram/pages/wechat/index/index.js
+const app = getApp()
 Page({
 
   /**
@@ -91,13 +92,17 @@ Page({
         num:26
       },
     ],
+    // toHeaderHtmlObj:{
+    //   currentPageText:"微信（26）",
+    // }
+    toHeaderHtmlObj:"1",
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    app.globalData.currentPage = 0;//修改全局变量 当前页面的下标为0
   },
 
   /**
