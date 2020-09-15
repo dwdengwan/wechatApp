@@ -5,7 +5,7 @@
     rows="3" 
     value='{{textareaVal}}' 
     name="content"
-    cursor-spacing='50'>
+    cursor-spacing='35'>
   </textarea> 
   <button class="comments-footer-button" bindtap="bindTapSend">send</button>
   <!-- <form bindsubmit='bindTapSend' class="comments-footer-form">
