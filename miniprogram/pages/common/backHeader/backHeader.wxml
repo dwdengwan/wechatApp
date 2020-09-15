@@ -1,0 +1,5 @@
+<!--miniprogram/pages/common/backHeader/backHeader.wxml-->
+<view class="back-header">
+  <text class="back-header-back" bindtap="bindtap"></text>
+  <text class="back-header-name" bindtap="bindtap">豆豆</text>
+</view>

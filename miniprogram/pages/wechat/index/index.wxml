@@ -2,7 +2,14 @@
 <view class="wechat all">
   <header-html text="{{toHeaderHtmlObj}}"></header-html>
   <view class="wechat-content content">
-    <view class="wechat-content-child" wx:for="{{wechatData}}" wx:key="item">
+    <view 
+          class="wechat-content-child" 
+          wx:for="{{wechatData}}" 
+          wx:for-index="index"
+          wx:for-item="item"
+          data-index="{{index}}"
+          bindtap="handleTap"
+          wx:key="item">
       <view class="wechat-child-left">
         <view class="wechat-child-img">
           <view class="wechat-child-flag">{{item.num}}</view>

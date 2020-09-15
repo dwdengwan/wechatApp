@@ -4,8 +4,11 @@
     "pages/addrbook/index/index",
     "pages/found/index/index",
     "pages/myself/index/index",
+    "pages/common/wechat/wechat",
     "pages/common/headerHtml/index",
-    "pages/common/footerHtml/index"
+    "pages/common/footerHtml/index",
+    "pages/common/backHeader/backHeader",
+    "pages/common/commentsFooter/commentsFooter"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

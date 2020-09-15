@@ -1,0 +1,15 @@
+<!--miniprogram/pages/common/commentsFooter/commentsFooter.wxml-->
+<view class="comments-footer">
+  <textarea 
+    class="comments-footer-input" 
+    rows="3" 
+    value='{{textareaVal}}' 
+    name="content"
+    cursor-spacing='50'>
+  </textarea> 
+  <button class="comments-footer-button" bindtap="bindTapSend">send</button>
+  <!-- <form bindsubmit='bindTapSend' class="comments-footer-form">
+    <textarea class="comments-footer-input" type='text' name="content"></textarea> 
+    <button class="comments-footer-button" form-type='submit'>send</button>
+  </form> -->
+</view>

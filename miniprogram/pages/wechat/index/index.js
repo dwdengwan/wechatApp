@@ -152,5 +152,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  handleTap:function(e){
+    let num = parseInt(e.currentTarget.dataset['index']);
+    wx.navigateTo({url:'/pages/common/wechat/wechat'})
+    console.log(num)
   }
 })

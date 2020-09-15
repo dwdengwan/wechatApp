@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "back-header": "../backHeader/backHeader",
+    "comments-footer":"../commentsFooter/commentsFooter"
+  }
+}

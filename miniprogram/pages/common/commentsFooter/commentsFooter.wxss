@@ -1,0 +1,33 @@
+/* miniprogram/pages/common/commentsFooter/commentsFooter.wxss */
+.comments-footer{
+  height: 10%;
+  width: 100%;
+  background: #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.comments-footer .comments-footer-form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.comments-footer .comments-footer-input{
+  width: 60%;
+  height: 70%;
+  background: #fff;
+  border-radius: 10rpx;
+}
+.comments-footer .comments-footer-button{
+  width: 20%;
+  height: 60%;
+  background: #27e38b;
+  color:#fff;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
