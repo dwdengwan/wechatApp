@@ -31,6 +31,7 @@ view,text,input,button{
   height: 84%;
   background: #fff;
   padding: 0 2%;
+  overflow-y: auto;
 }
 .footer{
   width: 96%;

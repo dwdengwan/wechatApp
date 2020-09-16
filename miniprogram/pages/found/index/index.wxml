@@ -1,6 +1,26 @@
 <!--pages/found/index/index.wxml-->
 <view class="found all">
   <header-html></header-html>
-  <view class="found-content content"></view>
+  <view class="found-content content">
+    <view class="found-content-child"
+      wx:for="{{foundData}}"
+      wx:for-index="index"
+      wx:for-item="item"
+      wx:key="item"
+      data-item="{{item}}"
+      bindtap="bindGoBack">
+      <view class="found-child-top">
+        <view class="found-child-left">
+          <view class="found-child-img"></view>
+          <view class="found-child-name">{{item.name}}</view>
+        </view>
+        <view class="found-child-right">
+          <view class="found-child-share" wx:if="{{index < 2}}"></view>
+          <view class="found-child-back"></view>
+        </view>
+      </view>
+      <view class="found-child-buttom" wx:if="{{item.isKongge == 1}}"></view>
+    </view>
+  </view>
   <footer-html></footer-html>
 </view>

@@ -1,0 +1,5 @@
+/* pages/found/test/viewContainer/coverImage/coverImage.wxss */
+.cover-image-img{
+  width: 20%;
+  height: 20%;
+}

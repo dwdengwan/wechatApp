@@ -1,0 +1,15 @@
+<!--pages/found/test/viewContainer/matchMedia/matchMedia.wxml-->
+<view class="match-media all"> 
+  <back-header></back-header>
+  <view class="match-media-content content">
+    <match-media min-width="1000" max-width="1500">
+      <view>当页面宽度在 1000 ~ 1500 px 之间时展示这里</view>
+    </match-media>
+    <match-media min-height="1000" orientation="landscape">
+      <view>当页面高度不小于 400 px 且屏幕方向为纵向时展示这里</view>
+    </match-media>
+    <view>orientation 屏幕方向（ landscape 或 portrait ）</view>
+    <view>媒体查询 个人感觉没生效 不管width和height怎么设置 媒体查询里面的内容依然会显示</view>
+  </view>
+  <view class="match-media-footer footer"></view>
+</view>

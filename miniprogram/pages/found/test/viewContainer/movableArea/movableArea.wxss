@@ -1,0 +1,17 @@
+/* pages/found/test/viewContainer/movableArea/movableArea.wxss */
+.container,
+.container .page-body{
+  width: 100%;
+  height: 100%;
+}
+.page-section{
+  width: 100%;
+  height: 40%;
+}
+.page-movable-area{
+  width: 100%;
+  height: 90%;
+  background: #27e38b;
+  color: #fff;
+  font-size: 30rpx;
+}

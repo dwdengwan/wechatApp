@@ -1,0 +1,34 @@
+<!--pages/found/test/viewContainer/coverView/coverView.wxml-->
+<view class="cover-view all">
+  <back-header></back-header>
+  <view class="cover-view-content content">
+    <view class="container">
+      <view class="page-body">
+        <view class="page-section page-section-gap">
+          <map
+            style="width: 100%; height: 300px;"
+            latitude="{{latitude}}"
+            longitude="{{longitude}}"
+          >
+            <cover-view class="cover-view22" scroll-top="10">
+              <cover-view class="container">
+                <cover-view class="flex-wrp" style="flex-direction:row;">
+                  <cover-view class="flex-item demo-text-1"></cover-view>
+                  <cover-view class="flex-item demo-text-2"></cover-view>
+                  <cover-view class="flex-item demo-text-3"></cover-view>
+                </cover-view>
+              </cover-view>
+            </cover-view>
+          </map>
+        </view>
+      </view>
+    </view>
+    <view>
+      <view>覆盖在原生组件之上的文本视图。</view>
+      <view>可覆盖的原生组件包括 map、video、canvas、camera、live-player、live-pusher</view>
+      <view>只支持嵌套 cover-view、cover-image，可在 cover-view 中使用 button。组件属性的长度单位默认为px，2.4.0起支持传入单位(rpx/px)。</view>
+      <view>scroll-top 设置顶部滚动偏移量，仅在设置了 overflow-y: scroll 成为滚动元素后生效</view>
+    </view>
+  </view>
+  <view class="cover-view-footer footer"></view>
+</view>

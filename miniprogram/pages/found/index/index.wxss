@@ -1,1 +1,56 @@
 /* pages/found/index/index.wxss */
+.found-content{
+  padding: 0;
+  width: 100%;
+  overflow-y: auto;
+}
+.found-content-child .found-child-top{
+  padding: 2%;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+.found-content-child .found-child-left{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+}
+.found-content-child .found-child-left .found-child-img{
+  width: 75rpx;
+  height: 75rpx;
+  border-radius: 10rpx;
+  background: #27e38b;
+}
+.found-content-child .found-child-left .found-child-name{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.found-content-child .found-child-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40%;
+}
+.found-content-child .found-child-right .found-child-share{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 10rpx;
+  background: #27e38b;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.found-content-child .found-child-right .found-child-back{
+  width: 20rpx;
+  height: 20rpx;
+  border-top: 5rpx solid #999;
+  border-right: 5rpx solid #999;
+  transform: rotate(45deg);
+}
+.found-content-child .found-child-buttom{
+  width: 100%;
+  height: 30rpx;
+  background: #eee;
+}

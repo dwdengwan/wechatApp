@@ -1,0 +1,58 @@
+/* miniprogram/pages/found/test/test.wxss */
+.test{
+  width: 96%;
+  height: 97.5%;
+  overflow-y: auto;
+  padding: 2%;
+}
+.test .test-child{
+  width: 100%;
+  margin:2% 0;
+}
+.test .test-child .test-child-top{
+  border-radius: 10rpx;
+  width: 96%;
+  background: #27e38b;
+  color:#fff;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.test .test-child .test-child-top .test-child-right{
+  width: 20rpx;
+  height: 20rpx;
+  border-top: 5rpx solid #fff;
+  border-left: 5rpx solid #fff;
+  transform: rotate(45deg);
+}
+.test .test-child .test-child-top .test-child-right2{
+  width: 20rpx;
+  height: 20rpx;
+  border-bottom: 5rpx solid #fff;
+  border-right: 5rpx solid #fff;
+  transform: rotate(45deg);
+}
+.test-child .test-child-buttom{
+  margin: 2%;
+  width: 96%;
+}
+.test-child .test-child-buttom .test-buttom-child{
+  margin: 2% 0;
+  padding: 2%;
+  width: 96%;
+  background: #27e38b;
+  border-radius: 10rpx;
+  color:#fff;
+  font-size: 25rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.test-child .test-child-buttom .test-buttom-child .test-child-right{
+  width: 15rpx;
+  height: 15rpx;
+  border-top: 5rpx solid #fff;
+  border-right: 5rpx solid #fff;
+  transform: rotate(45deg);
+}

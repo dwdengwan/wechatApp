@@ -1,14 +1,24 @@
 {
   "pages": [
+    "pages/found/test/test",
     "pages/wechat/index/index",
-    "pages/addrbook/index/index",
     "pages/found/index/index",
+    "pages/addrbook/index/index",
     "pages/myself/index/index",
     "pages/common/wechat/wechat",
     "pages/common/headerHtml/index",
     "pages/common/footerHtml/index",
     "pages/common/backHeader/backHeader",
-    "pages/common/commentsFooter/commentsFooter"
+    "pages/common/commentsFooter/commentsFooter",
+    "pages/found/test/viewContainer/coverImage/coverImage",
+    "pages/found/test/viewContainer/coverView/coverView",
+    "pages/found/test/viewContainer/matchMedia/matchMedia",
+    "pages/found/test/viewContainer/movableArea/movableArea",
+    "pages/found/test/viewContainer/movableView/movableView",
+    "pages/found/test/viewContainer/scrollView/scrollView",
+    "pages/found/test/viewContainer/swiper/swiper",
+    "pages/found/test/viewContainer/swiperItem/swiperItem",
+    "pages/found/test/viewContainer/view/view"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

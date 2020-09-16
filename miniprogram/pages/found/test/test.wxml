@@ -1,0 +1,30 @@
+<!--miniprogram/pages/found/test/test.wxml-->
+<view class="test">
+  <view 
+    class="test-child" 
+    catchtap="handleChildTap" 
+    wx:for="{{testData}}" 
+    wx:key="item"
+    data-index="{{index}}"
+    wx:for-index="index"
+    wx:for-item="item">
+    <view class="test-child-top">
+      <view class="test-child-left">{{item.name}}</view>
+      <view class="test-child-right" wx:if="{{isHandleClick[index]}}"></view>
+      <view class="test-child-right2" wx:if="{{!isHandleClick[index]}}"></view>
+    </view>
+    <view wx:if="{{isHandleClick[index]}}" class="test-child-buttom">
+      <view 
+       class="test-buttom-child"
+       catchtap="bindBchildTap"
+       wx:for="{{item.list}}" 
+       wx:key="bitem"
+       wx:for-index="bindex"
+       data-item="{{bitem}}"
+       wx:for-item="bitem">
+        <view class="test-child-left">{{bitem.name}}</view>
+        <view class="test-child-right"></view>
+      </view>
+    </view>
+  </view>
+</view>

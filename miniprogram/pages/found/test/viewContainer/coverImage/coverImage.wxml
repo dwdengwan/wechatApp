@@ -1,0 +1,18 @@
+<!--pages/found/test/viewContainer/coverImage/coverImage.wxml-->
+<view class="cover-image all">
+  <back-header></back-header>
+  <view class="cover-image-content content">
+    <cover-image 
+      src="../../../../../images/baidu.jpg"
+      bindload="bindLoadSuccess"
+      binderror="bindError"
+      class="cover-image-img"
+    ></cover-image>
+    <view class="cover-image-info">
+      <view>bindload 图片加载成功调用的函数</view>
+      <view>binderror 图片加载失败调用的函数</view>
+      <view>src 图片的路径</view>
+    </view>
+  </view>
+  <view class="cover-image-footer footer"></view>
+</view>
