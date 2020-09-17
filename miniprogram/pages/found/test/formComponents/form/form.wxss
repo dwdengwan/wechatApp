@@ -1,0 +1,8 @@
+/* miniprogram/pages/found/test/formComponents/form/form.wxss */
+.container,.page-body{
+  width: 100%;
+  height: 100%;
+}
+label{
+  margin: 0 2%;
+}

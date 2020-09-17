@@ -22,7 +22,22 @@
     "pages/found/test/basedContent/icon/icon",
     "pages/found/test/basedContent/progress/progress",
     "pages/found/test/basedContent/richText/richText",
-    "pages/found/test/basedContent/text/text"
+    "pages/found/test/basedContent/text/text",
+    "pages/found/test/formComponents/button/button",
+    "pages/found/test/formComponents/checkbox/checkbox",
+    "pages/found/test/formComponents/checkboxGroup/checkboxGroup",
+    "pages/found/test/formComponents/editor/editor",
+    "pages/found/test/formComponents/form/form",
+    "pages/found/test/formComponents/input/input",
+    "pages/found/test/formComponents/label/label",
+    "pages/found/test/formComponents/picker/picker",
+    "pages/found/test/formComponents/pickerView/pickerView",
+    "pages/found/test/formComponents/pickerViewColumn/pickerViewColumn",
+    "pages/found/test/formComponents/radio/radio",
+    "pages/found/test/formComponents/radioGroup/radioGroup",
+    "pages/found/test/formComponents/slider/slider",
+    "pages/found/test/formComponents/switch/switch",
+    "pages/found/test/formComponents/textarea/textarea"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

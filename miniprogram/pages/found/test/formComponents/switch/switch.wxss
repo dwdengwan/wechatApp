@@ -1,0 +1,14 @@
+/* miniprogram/pages/found/test/formComponents/switch/switch.wxss */
+.page__hd{
+  display: flex;
+  flex-direction: column;
+}
+.page__title,
+.page__desc{
+  color:#999;
+}
+.page__title{
+  padding: 1%;
+  color:#333;
+  font-size: 30rpx;
+}

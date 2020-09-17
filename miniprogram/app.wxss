@@ -43,11 +43,26 @@ view,text,input,button{
 .content::-webkit-scrollbar {
   display: none;
 }
-.text-info{
+.container,.page-body{
+  width: 100%;
+  height: 100%;
+}
+.text-info,
+.page-section-title,
+.section__title{
   padding: 2%;
   background: #27e38b;
   border-radius: 10rpx;
   color:#fff;
   margin: 2% 0;
   width: 96%;
+}
+.weui-cell{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2% 0;
+  padding: 2% 0;
+  border-bottom: 1px solid #eee;
 }

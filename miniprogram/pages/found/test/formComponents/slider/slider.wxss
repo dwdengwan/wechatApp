@@ -1,0 +1,21 @@
+/* miniprogram/pages/found/test/formComponents/slider/slider.wxss */
+.page__hd{
+  display: flex;
+  flex-direction: column;
+}
+.page__title,
+.page__desc{
+  color:#999;
+}
+.page__title{
+  padding: 1%;
+  color:#333;
+  font-size: 30rpx;
+}
+.section_gap{
+  padding: 2%;
+  margin: 2% 0;
+}
+.body-view{
+  padding: 2% 0;
+}

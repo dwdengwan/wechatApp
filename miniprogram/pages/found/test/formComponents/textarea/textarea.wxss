@@ -1,0 +1,7 @@
+/* miniprogram/pages/found/test/formComponents/textarea/textarea.wxss */
+.section{
+  border: 1px solid #27e38b;
+  margin: 2% 0;
+  border-radius: 10rpx;
+  padding: 2%;
+}
