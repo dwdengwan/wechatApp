@@ -2,26 +2,26 @@
 <view class="movable-view all">
   <back-header></back-header>
   <view class="movable-content content">
-    <view class="movable-content-child">可移动的视图容器，在页面中可以拖拽滑动。movable-view必须在 movable-area 组件中，并且必须是直接子节点，否则不能移动。</view>
-    <view class="movable-content-child">direction(none) movable-view的移动方向，属性值有all所有方向、vertical竖直、horizontal横向、none不移动</view>
-    <view class="movable-content-child">inertia(false) movable-view是否带有惯性</view>
-    <view class="movable-content-child">out-of-bounds(false) 超过可移动区域后，movable-view是否还可以移动</view>
-    <view class="movable-content-child">damping(20) 阻尼系数，用于控制x或y改变时的动画和过界回弹的动画，值越大移动越快</view>
-    <view class="movable-content-child">friction(2) 摩擦系数，用于控制惯性滑动的动画，值越大摩擦力越大，滑动越快停止；必须大于0，否则会被设置成默认值</view>
-    <view class="movable-content-child">disabled(false) 是否禁用</view>
-    <view class="movable-content-child">scale(false) 是否支持双指缩放，默认缩放手势生效区域是在movable-view内</view>
-    <view class="movable-content-child">scale-value(1) 定义缩放倍数，取值范围为 0.5 - 10</view>
-    <view class="movable-content-child">animation(true) 是否使用动画</view>
-    <view class="movable-content-child">bindchange(fn) 拖动过程中触发的事件，event.detail = {x, y, source}</view>
-    <view class="movable-content-child">bindscale(fn) 缩放过程中触发的事件，event.detail = {x, y, scale}，x和y字段在2.1.0之后支持</view>
-    <view class="movable-content-child">htouchmove(fn) 初次手指触摸后移动为横向的移动时触发，如果catch此事件，则意味着touchmove事件也被catch</view>
-    <view class="movable-content-child">vtouchmove(fn) 初次手指触摸后移动为纵向的移动时触发，如果catch此事件，则意味着touchmove事件也被catch</view>
-    <view class="movable-content-child">bindchange 返回的 source 表示产生移动的原因</view>
-    <view class="movable-content-child">touch 拖动</view>
-    <view class="movable-content-child">touch-out-of-bounds 超出移动范围</view>
-    <view class="movable-content-child">out-of-bounds 超出移动范围后的回弹</view>
-    <view class="movable-content-child">friction 惯性</view>
-    <view class="movable-content-child">空字符串 setData</view>
+    <view class="text-info">可移动的视图容器，在页面中可以拖拽滑动。movable-view必须在 movable-area 组件中，并且必须是直接子节点，否则不能移动。</view>
+    <view class="text-info">direction(none) movable-view的移动方向，属性值有all所有方向、vertical竖直、horizontal横向、none不移动</view>
+    <view class="text-info">inertia(false) movable-view是否带有惯性</view>
+    <view class="text-info">out-of-bounds(false) 超过可移动区域后，movable-view是否还可以移动</view>
+    <view class="text-info">damping(20) 阻尼系数，用于控制x或y改变时的动画和过界回弹的动画，值越大移动越快</view>
+    <view class="text-info">friction(2) 摩擦系数，用于控制惯性滑动的动画，值越大摩擦力越大，滑动越快停止；必须大于0，否则会被设置成默认值</view>
+    <view class="text-info">disabled(false) 是否禁用</view>
+    <view class="text-info">scale(false) 是否支持双指缩放，默认缩放手势生效区域是在movable-view内</view>
+    <view class="text-info">scale-value(1) 定义缩放倍数，取值范围为 0.5 - 10</view>
+    <view class="text-info">animation(true) 是否使用动画</view>
+    <view class="text-info">bindchange(fn) 拖动过程中触发的事件，event.detail = {x, y, source}</view>
+    <view class="text-info">bindscale(fn) 缩放过程中触发的事件，event.detail = {x, y, scale}，x和y字段在2.1.0之后支持</view>
+    <view class="text-info">htouchmove(fn) 初次手指触摸后移动为横向的移动时触发，如果catch此事件，则意味着touchmove事件也被catch</view>
+    <view class="text-info">vtouchmove(fn) 初次手指触摸后移动为纵向的移动时触发，如果catch此事件，则意味着touchmove事件也被catch</view>
+    <view class="text-info">bindchange 返回的 source 表示产生移动的原因</view>
+    <view class="text-info">touch 拖动</view>
+    <view class="text-info">touch-out-of-bounds 超出移动范围</view>
+    <view class="text-info">out-of-bounds 超出移动范围后的回弹</view>
+    <view class="text-info">friction 惯性</view>
+    <view class="text-info">空字符串 setData</view>
   </view>
   <view class="moveable-footer footer"></view>
 </view>

@@ -1,0 +1,16 @@
+/* miniprogram/pages/found/test/basedContent/progress/progress.wxss */
+.progress-box{
+  width: 100%;
+  display: flex;
+  height: 10%;
+}
+progress{
+  width: 100%;
+}
+.progress-box-icon{
+  justify-content: space-between;
+  align-items: center;
+}
+.progress-box-icon progress{
+  width: 90%;
+}

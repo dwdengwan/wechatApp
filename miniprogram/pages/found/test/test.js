@@ -65,22 +65,22 @@ Page({
           {
             name:"icon",
             id:"100201",
-            url:"",
+            url:"/pages/found/test/basedContent/icon/icon",
           },
           {
             name:"progress",
             id:"100202",
-            url:"",
+            url:"/pages/found/test/basedContent/progress/progress",
           },
           {
             name:"rich-text",
             id:"100203",
-            url:"",
+            url:"/pages/found/test/basedContent/richText/richText",
           },
           {
             name:"text",
             id:"100204",
-            url:"",
+            url:"/pages/found/test/basedContent/text/text",
           }
         ],
       },

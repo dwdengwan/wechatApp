@@ -1,8 +1,1 @@
 /* pages/found/test/viewContainer/movableView/movableView.wxss */
-.movable-content-child{
-  background: #27e38b;
-  color:#fff;
-  margin: 2% 0;
-  padding: 2%;
-  border-radius: 10px;
-}

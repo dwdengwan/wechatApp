@@ -34,8 +34,8 @@
   transform: rotate(45deg);
 }
 .test-child .test-child-buttom{
-  margin: 2%;
-  width: 96%;
+  margin: 2% 10%;
+  width: 80%;
 }
 .test-child .test-child-buttom .test-buttom-child{
   margin: 2% 0;

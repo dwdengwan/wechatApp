@@ -18,7 +18,11 @@
     "pages/found/test/viewContainer/scrollView/scrollView",
     "pages/found/test/viewContainer/swiper/swiper",
     "pages/found/test/viewContainer/swiperItem/swiperItem",
-    "pages/found/test/viewContainer/view/view"
+    "pages/found/test/viewContainer/view/view",
+    "pages/found/test/basedContent/icon/icon",
+    "pages/found/test/basedContent/progress/progress",
+    "pages/found/test/basedContent/richText/richText",
+    "pages/found/test/basedContent/text/text"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

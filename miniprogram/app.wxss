@@ -43,3 +43,11 @@ view,text,input,button{
 .content::-webkit-scrollbar {
   display: none;
 }
+.text-info{
+  padding: 2%;
+  background: #27e38b;
+  border-radius: 10rpx;
+  color:#fff;
+  margin: 2% 0;
+  width: 96%;
+}

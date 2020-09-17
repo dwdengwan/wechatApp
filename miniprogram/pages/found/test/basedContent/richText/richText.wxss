@@ -1,0 +1,15 @@
+/* miniprogram/pages/found/test/basedContent/richText/richText.wxss */
+.container,.page-body{
+  width: 100%;
+  height: 100%;
+}
+.page-section{
+  width: 100%;
+  height: 45%;
+}
+scroll-view{
+  border-radius: 10px;
+  width: 96%;
+  border:1px solid #27e38b;
+  padding: 2%;
+}

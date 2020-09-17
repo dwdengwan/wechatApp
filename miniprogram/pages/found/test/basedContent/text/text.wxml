@@ -1,0 +1,18 @@
+<!--miniprogram/pages/found/test/basedContent/text/text.wxml-->
+<view class="text all">
+  <back-header></back-header>
+  <view class="text-content content">
+    <view class="container">
+      <view class="page-body">
+        <view class="page-section page-section-spacing">
+          <view class="text-box" scroll-y="true" scroll-top="{{scrollTop}}">
+            <text class="text-content-text">{{text}}</text>
+          </view>
+          <button class="text-content-btnadd" disabled="{{!canAdd}}" bindtap="add">add line</button>
+          <button class="text-content-btnremove" disabled="{{!canRemove}}" bindtap="remove">remove line</button>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="text-footer footer"></view>
+</view>

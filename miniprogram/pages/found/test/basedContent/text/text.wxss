@@ -1,0 +1,18 @@
+/* miniprogram/pages/found/test/basedContent/text/text.wxss */
+.container,.page-body{
+  width: 100%;
+  height: 100%;
+}
+.text-content-text{
+  color:#fff;
+  background: #27e38b;
+  margin: 2%;
+}
+button{
+  margin: 2% 0;
+  color:#fff;
+  background: #27e38b;
+}
+.text-content-btnremove{
+  background: #971126;
+}

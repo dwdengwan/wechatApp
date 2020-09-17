@@ -8,10 +8,10 @@
       binderror="bindError"
       class="cover-image-img"
     ></cover-image>
-    <view class="cover-image-info">
-      <view>bindload 图片加载成功调用的函数</view>
-      <view>binderror 图片加载失败调用的函数</view>
-      <view>src 图片的路径</view>
+    <view>
+      <view class="text-info">bindload 图片加载成功调用的函数</view>
+      <view class="text-info">binderror 图片加载失败调用的函数</view>
+      <view class="text-info">src 图片的路径</view>
     </view>
   </view>
   <view class="cover-image-footer footer"></view>
