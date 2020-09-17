@@ -1,0 +1,10 @@
+<!--miniprogram/pages/found/test/navigation/functionalPageNavigator/functionalPageNavigator.wxml-->
+<view class="fnpage-navigator all">
+  <back-header></back-header>
+  <view class="fnpage-navigator-content content">
+    <functional-page-navigator name="loginAndGetUserInfo" bind:success="loginSuccess">
+      <button style="margin:2% 0;">登录到插件</button>
+    </functional-page-navigator>
+  </view>
+  <view class="fnpage-navigator-footer footer"></view>
+</view>

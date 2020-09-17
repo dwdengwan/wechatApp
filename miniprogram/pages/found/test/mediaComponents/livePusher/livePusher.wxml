@@ -1,0 +1,8 @@
+<!--miniprogram/pages/found/test/mediaComponents/livePusher/livePusher.wxml-->
+<view class="live-pusher all">
+  <back-header></back-header>
+  <view class="live-pusher-content content">
+    <live-pusher url="https://domain/push_stream" mode="RTC" autopush bindstatechange="statechange" style="width: 300px; height: 225px;" />
+  </view>
+  <view class="live-pusher-footer footer"></view>
+</view>

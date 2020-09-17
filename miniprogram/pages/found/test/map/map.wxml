@@ -1,0 +1,8 @@
+<!--miniprogram/pages/found/test/map/map.wxml-->
+<view class="map all">
+  <back-header></back-header>
+  <view class="map-content content">
+    <map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+  </view>
+  <view class="map-footer footer"></view>
+</view>

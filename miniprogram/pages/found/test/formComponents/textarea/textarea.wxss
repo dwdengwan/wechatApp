@@ -5,3 +5,6 @@
   border-radius: 10rpx;
   padding: 2%;
 }
+textarea{
+  width: 100%;
+}

@@ -172,12 +172,12 @@ Page({
           {
             name:"functional-page-navigator",
             id:"100401",
-            url:"",
+            url:"/pages/found/test/navigation/functionalPageNavigator/functionalPageNavigator",
           },
           {
             name:"navigator",
             id:"100402",
-            url:"",
+            url:"/pages/found/test/navigation/navigator/navigator",
           }
         ],
       },
@@ -188,12 +188,12 @@ Page({
           {
             name:"audio",
             id:"100501",
-            url:"",
+            url:"/pages/found/test/mediaComponents/audio/audio",
           },
           {
             name:"camera",
             id:"100502",
-            url:"",
+            url:"/pages/found/test/mediaComponents/camera/camera",
           },
           {
             name:"image",
@@ -203,22 +203,22 @@ Page({
           {
             name:"live-player",
             id:"100504",
-            url:"",
+            url:"/pages/found/test/mediaComponents/livePlayer/livePlay",
           },
           {
             name:"live-pusher",
             id:"100505",
-            url:"",
+            url:"/pages/found/test/mediaComponents/livePusher/livePusher",
           },
           {
             name:"video",
             id:"100506",
-            url:"",
+            url:"/pages/found/test/mediaComponents/video/video",
           },
           {
             name:"voip-room",
             id:"100507",
-            url:"",
+            url:"/pages/found/test/mediaComponents/voipRoom/voipRoom",
           }
         ],
       },
@@ -229,7 +229,7 @@ Page({
           {
             name:"map",
             id:"100601",
-            url:"",
+            url:"/pages/found/test/map/map",
           }
         ],
       },

@@ -1,0 +1,8 @@
+<!--miniprogram/pages/found/test/mediaComponents/livePlayer/livePlay.wxml-->
+<view class="live-play all">
+  <back-header></back-header>
+  <view class="live-play-content content">
+    <live-player src="https://domain/pull_stream" mode="RTC" autoplay bindstatechange="statechange" binderror="error" style="width: 300px; height: 225px;" />
+  </view>
+  <view class="live-play-footer footer"></view>
+</view>

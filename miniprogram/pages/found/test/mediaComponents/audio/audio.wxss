@@ -1,0 +1,4 @@
+/* miniprogram/pages/found/test/mediaComponents/audio/audio.wxss */
+button{
+  margin: 2% 0;
+}

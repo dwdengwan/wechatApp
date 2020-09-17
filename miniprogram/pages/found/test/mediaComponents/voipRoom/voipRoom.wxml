@@ -1,0 +1,13 @@
+<!--miniprogram/pages/found/test/mediaComponents/voipRoom/voipRoom.wxml-->
+<view class="voip-room all">
+  <back-header></back-header>
+  <view class="voip-room-content content">
+    <block wx:for="{{openIdList}}" wx:key="*this">
+      <voip-room
+        openid="{{item}}"
+        mode="{{selfOpenId === item ? 'camera' : 'video'}}">
+      </voip-room>
+    </block>
+  </view>
+  <view class="voip-room-footer footer"></view>
+</view>

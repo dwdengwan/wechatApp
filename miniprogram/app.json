@@ -37,7 +37,16 @@
     "pages/found/test/formComponents/radioGroup/radioGroup",
     "pages/found/test/formComponents/slider/slider",
     "pages/found/test/formComponents/switch/switch",
-    "pages/found/test/formComponents/textarea/textarea"
+    "pages/found/test/formComponents/textarea/textarea",
+    "pages/found/test/navigation/functionalPageNavigator/functionalPageNavigator",
+    "pages/found/test/navigation/navigator/navigator",
+    "pages/found/test/mediaComponents/audio/audio",
+    "pages/found/test/mediaComponents/camera/camera",
+    "pages/found/test/mediaComponents/livePlayer/livePlay",
+    "pages/found/test/mediaComponents/livePusher/livePusher",
+    "pages/found/test/mediaComponents/video/video",
+    "pages/found/test/mediaComponents/voipRoom/voipRoom",
+    "pages/found/test/map/map"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
